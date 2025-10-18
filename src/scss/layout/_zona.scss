@@ -1,0 +1,46 @@
+@use 'global/variables' as v;
+@use 'global/mixins' as m;
+
+.Zonas{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 4rem;
+  @include m.desktop{
+    display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      place-items: start; /* los demás se quedan arriba a la izquierda */
+  }
+}
+.Zonas__info{
+  @include m.desktop{
+    justify-self: center; /* centra horizontalmente */
+    align-self: center;   /* centra verticalmente */
+  }
+
+  ul{
+    li{   
+        white-space: nowrap;
+    }
+  }
+}
+
+.Zona__mapa{
+  width: 100%;
+  height: 100%;
+  @include m.desktop{
+    height: auto;
+    width: 70rem;
+  }
+}
+
+.Zona__titulo{
+    text-transform: uppercase;
+    color: v.$Blue;
+    h3{
+        font-weight: bold;
+        font-size: 4rem;
+        margin: 0;
+    }
+}

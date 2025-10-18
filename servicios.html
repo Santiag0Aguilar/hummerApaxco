@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hummer--Servicios</title>
+    <link rel="stylesheet" href="build/css/index.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"/>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header header-top" data-aos="fade-down">
+        <a href="index.html">
+            <img class="logo__hummer" src="build/img/LogoHummer.png" alt="Logo de hummer">
+        </a>
+        
+        <nav data-aos="fade-left" data-aos-delay="400">
+            <a href="nosotros.html" class="nav__enlace">Nosotros</a>
+            <a href="servicios.html" class="nav__enlace enlace__active">Servicios</a>
+            <a href="trabajos.html" class="nav__enlace">Trabajos</a>
+            <a href="mapa.html" class="nav__enlace">Ubicaciones</a>
+            <div class="header__BtnLenguague">
+              <p class="header__BtnLenguague--Active optionLenguaje">es</p>
+              <p class="optionLenguaje">en</p>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido Servicios -->
+<main class="servicios-page">
+    <!-- Sección de Servicios -->
+    <section class="servicios">
+        <h1 data-aos="fade-up">Nuestros Servicios</h1>
+        <div class="servicios-grid">
+            <div class="servicio-card" data-aos="fade-right" data-aos-delay="100">
+                <h3>Estructuras de Acero</h3>
+                <p>Diseño y construcción de estructuras metálicas con los más altos estándares de calidad.</p>
+            </div>
+            <div class="servicio-card" data-aos="fade-up" data-aos-delay="200">
+                <h3>Soldadura Especializada</h3>
+                <p>Trabajos de soldadura de precisión para todo tipo de proyectos industriales y comerciales.</p>
+            </div>
+            <div class="servicio-card" data-aos="fade-left" data-aos-delay="300">
+                <h3>Acero Inoxidable</h3>
+                <p>Fabricación y montaje en acero inoxidable para garantizar durabilidad y estética premium.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Cotización -->
+    <section class="cotizacion" data-aos="fade-up">
+        <h2>Solicita tu Cotización</h2>
+        <form class="form-cotizacion" data-aos="fade-up" data-aos-delay="200">
+            <div class="form-group">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            </div>
+            <div class="form-group">
+                <label for="servicio">Servicio Deseado</label>
+                <select id="servicio" name="servicio" required>
+                    <option value="" disabled selected>Selecciona un servicio</option>
+                    <option value="estructuras">Estructuras de Acero</option>
+                    <option value="soldadura">Soldadura Especializada</option>
+                    <option value="inoxidable">Acero Inoxidable</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje / Detalles</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos más sobre tu proyecto..." rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn-enviar" data-aos="zoom-in" data-aos-delay="400">Enviar Cotización</button>
+        </form>
+    </section>
+
+    
+<footer class="footer" data-aos="fade-up">
+  <img class="logo" src="build/img/LogoHummer.png" alt="LogoHummer">
+
+  <div class="footer__Texto" data-aos="fade-up" data-aos-delay="200">
+    <div class="footer__Texto--top">
+      <p>sihumer08@gmail.com</p>
+    </div>
+    <div class="footer__Texto--bottom">
+      <div>
+        <p class="nombre">Jorge Alberto Cruz Resendiz</p>
+        <p><span>Telefono:</span> (55)63585999</p>
+        <p><span>Correo:</span> jorgeer0121@gmail.com</p>
+      </div>
+      <div>
+        <p class="nombre">Axel Daniel Cruz Resendiz</p>
+        <p><span>Telefono:</span> (55)71919116</p>
+        <p><span>Correo:</span> sirbadgerer@hotmail.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</main>
+
+<!-- Scripts AOS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+</body>
+</html>

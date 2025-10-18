@@ -1,0 +1,18 @@
+@use 'global/variables' as v;
+@use 'global/mixins' as m;
+
+#MXNLE, #MXJAL, #MXHID, #MXMEX, #MXQUE, #MXROO{
+     fill: v.$Blue;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  transform-origin: center center; // 🔹 clave
+
+  &:hover {
+    fill: v.$Blue;
+    filter: drop-shadow(0 0 8px rgba(0, 255, 255, 0.6));
+    transform: scale(1.05);
+  }
+}
+path {
+  pointer-events: visibleFill;
+}

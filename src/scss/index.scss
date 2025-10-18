@@ -1,0 +1,19 @@
+@use "global/normalize";
+@use "global/global";
+@use "global/variables";
+@use "global/mixins";
+@use "global/botones";
+// layout
+
+@use "layout/header";
+@use "layout/nosotros";
+@use "layout/servicios";
+@use "layout/servicioGrid";
+@use "layout/proyectos";
+@use "layout/Swiper";
+@use "layout/mapa";
+@use "layout/zona";
+@use "layout/footer";
+@use "layout/nosotrosServicios";
+@use "layout/serviciosPage";
+@use "layout/nosotrosPage";

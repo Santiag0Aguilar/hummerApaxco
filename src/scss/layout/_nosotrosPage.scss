@@ -1,0 +1,113 @@
+.hero-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+    gap: 40px;
+
+    .hero-text {
+        flex: 1 1 400px;
+        max-width: 600px;
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            color: #111;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+    }
+
+    .hero-img {
+        flex: 1 1 400px;
+        max-width: 500px;
+        img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+    }
+}
+
+.industrias-nosotros {
+    padding: 60px 20px;
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+        color: #111;
+    }
+    .industrias-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+
+        .industria-card {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+
+            &:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            }
+
+            h3 {
+                font-size: 1.5rem;
+                margin-bottom: 10px;
+            }
+
+            p {
+                color: #666;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.mejor-opcion {
+    background-color: #111;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+    }
+
+    .opciones-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+
+        .opcion {
+            background-color: #1c1c1c;
+            padding: 30px;
+            border-radius: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+
+            &:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 20px rgba(243,156,18,0.3);
+            }
+
+            h3 {
+                font-size: 1.5rem;
+                margin-bottom: 10px;
+                color: #f39c12;
+            }
+
+            p {
+                font-size: 1rem;
+                color: #ccc;
+            }
+        }
+    }
+}
+

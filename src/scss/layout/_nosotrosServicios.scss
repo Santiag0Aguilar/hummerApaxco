@@ -1,0 +1,68 @@
+@use 'global/variables' as v;
+@use 'global/mixins' as m;
+
+
+
+.nosotros__servicios{
+    .nosotros__servicios--item{
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        margin: 4rem 0;
+        align-items: center;
+           object-fit: cover;        // evita distorsiones
+      border-radius: 0.5rem;    // un toque elegante
+       box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+       
+    &:hover {
+        transform: scale(1.03);
+    }
+        img{
+            width: 4.3rem;
+            height: 4.3rem;
+             filter: brightness(0);
+        }
+        .nosotros__servicios--item__texto{
+            text-align: center;
+            p{
+                font-size: 3rem;
+                padding: 0;
+                margin: 0;
+            }
+            h4{
+                margin: 0;
+                font-weight: 300;
+                font-size: 1.5rem;
+                color: v.$Gray;
+            }
+        }
+    }
+}
+
+
+.swiper-servicios .swiper-wrapper {
+  box-sizing: border-box !important;
+}
+
+.swiper-servicios {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 1rem; /* Espacio a los lados para móviles */
+  box-sizing: border-box;
+}
+
+/* Opcional: por si tu .contenedor tiene display:flex */
+.nosotros__servicios.contenedor {
+  display: block;
+}
+
+/* /////////////////////////// */
+
+@media (max-width: 768px) {
+  .swiper-servicios .swiper-slide {
+    width: auto;
+  }
+
+  
+}

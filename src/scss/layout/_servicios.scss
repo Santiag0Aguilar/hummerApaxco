@@ -1,0 +1,29 @@
+@use 'global/variables' as v;
+@use 'global/mixins' as m;
+
+.servicios{
+    
+  background-image: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),   // color superior del gradiente (negro con 50% de transparencia)
+    rgba(0, 0, 0, 0.2)    // color inferior del gradiente (negro con 20% de transparencia)
+  ),
+  url("../img/2.jpg");     // imagen de fondo
+
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 20rem; 
+   .servicios__texto{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        color: v.$White;
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 4rem;
+    }
+   }
+}

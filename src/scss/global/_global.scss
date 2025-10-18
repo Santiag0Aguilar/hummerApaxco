@@ -1,0 +1,77 @@
+@use 'global/variables' as v;
+@use 'global/mixins' as m;
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: v.$font-family;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+
+h1 {
+    font-size: 3.6rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.7rem;
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+} 
+
+
+.proyectos{
+    background-color: v.$DarkBlue;
+}
+
+.nombre{
+    font-weight: bold;
+}
+.centrar__texto{
+    text-align: center;
+} 
+
+.enlace__active{
+    opacity: .5;
+}
+
+a{
+    &:hover{
+        opacity: .5;
+    }
+}

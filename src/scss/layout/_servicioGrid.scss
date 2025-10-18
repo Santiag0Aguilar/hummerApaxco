@@ -1,0 +1,43 @@
+@use 'global/variables' as v;
+@use 'global/mixins' as m;
+
+.servicio {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  @include m.desktop{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; // centra horizontalmente las tarjetas
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  .servicio__item {
+    display: flex;              // usamos flexbox dentro de cada ítem
+    flex-direction: column;     // título arriba, imagen abajo
+    align-items: center;        // centra horizontalmente
+    text-align: center;         // centra el texto
+    gap: 1rem;                  // espacio entre título e imagen
+
+    h2 {
+      text-transform: uppercase;
+      font-weight: 700;
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    img {
+      width: 40rem;
+      height: 20rem;
+      object-fit: cover;        // evita distorsiones
+      border-radius: 0.5rem;    // un toque elegante
+       box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.03);
+  }
+    }
+  }
+}

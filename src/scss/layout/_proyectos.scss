@@ -1,0 +1,38 @@
+@use 'global/variables' as v;
+@use 'global/mixins' as m;
+
+.proyectos{
+    color: v.$White;
+    .proyectos__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        h2{
+            text-transform: uppercase;
+        }
+    }
+    .proyectos__bottom{
+        display: flex;
+        justify-content: space-around;
+        gap: 2rem;
+        .proyectos__bottom--item{
+            img{
+                height: 30rem;
+                object-fit: cover;        // evita distorsiones
+                    border-radius: 0.5rem;    // un toque elegante
+                    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+                    transition: transform 0.3s ease;
+                
+                &:hover {
+                    transform: scale(1.03);
+                }
+            }
+            p{
+                text-transform: uppercase;
+                font-weight: bold; 
+                padding: 2rem;
+            }
+        }
+    }
+}

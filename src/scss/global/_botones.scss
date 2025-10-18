@@ -1,0 +1,10 @@
+@use 'global/variables' as v;
+@use 'global/mixins' as m;
+
+.Btn-1{
+    @include m.boton-elegante(v.$Blue, inline-block, v.$White)
+}  
+.Btn-2{
+    @include m.boton-elegante(v.$Blue, block, v.$White);
+    height: auto;
+}  

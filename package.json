@@ -1,0 +1,29 @@
+{
+  "name": "maquetauno",
+  "version": "1.0.0",
+  "description": "Proyecto de venta",
+  "keywords": [
+    "SASS",
+    "SCSS",
+    "GULP",
+    "CSSNANO"
+  ],
+  "license": "ISC",
+  "author": "Santiago Aguilar",
+  "type": "commonjs",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.1.1",
+    "gulp": "^5.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.93.2"
+  }
+}
