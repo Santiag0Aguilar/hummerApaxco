@@ -1,5 +1,5 @@
 async function FetchTrabajos() {
-  const url = "../../Hummer/trabajos.json"; // en produccion cambiar ruta
+  const url = "../../../trabajos.json"; // en produccion cambiar ruta
 
   try {
     const response = await fetch(url);
@@ -13,3 +13,4 @@ async function FetchTrabajos() {
 }
 
 export default FetchTrabajos;
+
