@@ -1,4 +1,4 @@
-const url = "../../ciudades.json"; // en produccion cambiar ruta
+const url = "https://santiag0aguilar.github.io/hummerApaxco/ciudades.json"; // en produccion cambiar ruta
 
 async function FetchCiudades() {
   const response = await fetch(url);
@@ -9,5 +9,6 @@ async function FetchCiudades() {
 }
 
 export default FetchCiudades;
+
 
 
