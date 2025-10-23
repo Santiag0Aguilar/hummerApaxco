@@ -1,0 +1,150 @@
+{
+  "header": {
+    "nav": {
+      "nosotros": "About Us",
+      "servicios": "Services",
+      "trabajos": "Projects",
+      "ubicaciones": "Locations"
+    },
+    "language": {
+      "es": "es",
+      "en": "en"
+    },
+    "slogan": "Structural excellence for large-scale projects"
+  },
+  "index": {
+    "about_us": {
+      "title": "About Us",
+      "text": "“HUMER” is a Mexican company, founded in 2013 in the State of Mexico under the individual entrepreneur regime with CURJ920121BE6 registration. Due to the constant evolution of the industry in our country, the company formed an association in 2020, giving rise to what today is SERVICIOS INDUSTRIALES HUMER S.A. de C.V., structured with specialized personnel in welding application, engineering, fabrication, assembly, supervision, and management. Our experience has been forged in metal structures for works, specialized welding, manufacturing metal parts for the industry in general (lime plants, concrete plants, etc.), as well as in the residential sector."
+    },
+    "services_icons": {
+      "hotel": "Hotel Sector",
+      "commercial": "Commercial Sector",
+      "industrial": "Industrial Sector",
+      "government": "Government Sector"
+    },
+    "services_section": {
+      "title": "Services",
+      "button": "Get a Quote"
+    },
+    "service_items": {
+      "steel_structures": "Steel Structures",
+      "specialized_welding": "Specialized Welding",
+      "stainless_steel": "Stainless Steel"
+    },
+    "projects_section": {
+      "title": "Our Experience",
+      "button": "Get a Quote"
+    },
+    "footer": {
+      "emails": ["sihumer08@gmail.com"],
+      "contacts": [
+        {
+          "name": "Jorge Alberto Cruz Resendiz",
+          "phone": "(55)63585999",
+          "email": "jorgeer0121@gmail.com"
+        },
+        {
+          "name": "Axel Daniel Cruz Resendiz",
+          "phone": "(55)71919116",
+          "email": "sirbadgerer@hotmail.com"
+        }
+      ]
+    }
+  },
+  "nosotros": {
+    "hero": {
+      "title": "Hummer: Excellence in Welding and Construction",
+      "text": "We are leaders in industrial, commercial, hotel, and government construction projects. Our work guarantees precision, durability, and high-quality design."
+    },
+    "industries": {
+      "title": "Industries We Work With",
+      "hotel": "Complete hotel and resort projects with the highest standards.",
+      "commercial": "Construction of functional and durable stores and shopping centers.",
+      "lime": "Industrial projects in plants and lime factories, safe and durable.",
+      "government": "Government infrastructure complying with strict regulations."
+    },
+    "why_choose_us": {
+      "title": "Why Choose Us?",
+      "options": {
+        "premium_quality": "Our projects stand out for precision and first-class materials.",
+        "proven_experience": "Decades of work across diverse industries back our track record.",
+        "guaranteed_work": "We ensure each project meets and exceeds expectations.",
+        "justified_investment": "We charge accordingly because the quality and durability of our work are worth it."
+      }
+    }
+  },
+  "servicios": {
+    "page_title": "Our Services",
+    "service_cards": {
+      "steel_structures": {
+        "title": "Steel Structures",
+        "description": "Design and construction of metal structures with the highest quality standards."
+      },
+      "specialized_welding": {
+        "title": "Specialized Welding",
+        "description": "Precision welding work for all types of industrial and commercial projects."
+      },
+      "stainless_steel": {
+        "title": "Stainless Steel",
+        "description": "Manufacturing and assembly in stainless steel to ensure durability and premium aesthetics."
+      }
+    },
+    "quote_form": {
+      "title": "Request a Quote",
+      "fields": {
+        "name": { "label": "Full Name", "placeholder": "Your name" },
+        "email": {
+          "label": "Email Address",
+          "placeholder": "example@email.com"
+        },
+        "service": {
+          "label": "Desired Service",
+          "placeholder": "Select a service"
+        },
+        "message": {
+          "label": "Message / Details",
+          "placeholder": "Tell us more about your project..."
+        }
+      },
+      "options": {
+        "steel_structures": "Steel Structures",
+        "specialized_welding": "Specialized Welding",
+        "stainless_steel": "Stainless Steel"
+      },
+      "submit_button": "Send Quote"
+    }
+  },
+  "trabajos": {
+    "hero": {
+      "title": "High-Quality Construction Projects",
+      "text": "Hummer is the leading welding and construction company, specializing in industrial, commercial, hotel, and government projects. Our work guarantees results that exceed expectations."
+    },
+    "industries": {
+      "title": "Industries Where We Work",
+      "hotel": {
+        "title": "Hotel",
+        "text": "Construction and remodeling projects in hotels and resorts with the highest quality standards."
+      },
+      "commercial": {
+        "title": "Commercial",
+        "text": "Construction of shopping centers, stores, and commercial spaces with functional and durable design."
+      },
+      "lime": {
+        "title": "Lime",
+        "text": "Industrial projects in lime plants and factories, ensuring strength and safety in every structure."
+      },
+      "government": {
+        "title": "Government",
+        "text": "Construction of government facilities complying with the strictest standards and technical requirements."
+      }
+    },
+    "experience_section": {
+      "title": "Our Experience"
+    },
+    "quality_section": {
+      "title": "High-Quality Work",
+      "text": "At Hummer, we understand that excellence comes at a cost. Our experience, precision, and commitment ensure that every project not only meets but exceeds expectations, justifying the investment in each job."
+    }
+  }
+}

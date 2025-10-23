@@ -1,0 +1,44 @@
+{
+  "MXNLE": {
+    "id": "MXNLE",
+    "nombre": "Monterrey",
+    "proyecto1": "Parque Industrial",
+    "proyecto2": "Torre Norte",
+    "proyecto3": "Centro Comercial Monterrey"
+  },
+  "MXJAL": {
+    "id": "MXJAL",
+    "nombre": "Guadalajara",
+    "proyecto1": "Midtown",
+    "proyecto2": "Centro Comercial",
+    "proyecto3": "Torre"
+  },
+  "MXHID": {
+    "id": "MXHID",
+    "nombre": "Pachuca",
+    "proyecto1": "Hidalgo Business Center",
+    "proyecto2": "Parque Industrial Pachuca",
+    "proyecto3": "Torre Corporativa"
+  },
+  "MXMEX": {
+    "id": "MXMEX",
+    "nombre": "Ciudad de México",
+    "proyecto1": "Torre Reforma",
+    "proyecto2": "Centro Histórico",
+    "proyecto3": "Polanco Residencial"
+  },
+  "MXQUE": {
+    "id": "MXQUE",
+    "nombre": "Querétaro",
+    "proyecto1": "Querétaro Business Park",
+    "proyecto2": "Centro Comercial Juriquilla",
+    "proyecto3": "Torre Empresarial"
+  },
+  "MXROO": {
+    "id": "MXROO",
+    "nombre": "Cancún",
+    "proyecto1": "Zona Hotelera",
+    "proyecto2": "Puerto Cancún",
+    "proyecto3": "Centro Comercial La Isla"
+  }
+}

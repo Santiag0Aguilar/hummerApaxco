@@ -1,0 +1,62 @@
+{
+  "trabajo-1": {
+    "Nombre": "Midtown Jalisco",
+    "Ruta_Imagen": "build/img/proyectos/midtown.webp",
+    "informacion": "En este proyecto fuimos los responsables de garantizar la calidad en la estructura y acabados del complejo comercial.",
+    "id": 1
+  },
+  "trabajo-2": {
+    "Nombre": "Torre Atlas",
+    "Ruta_Imagen": "build/img/proyectos/torre-atlas.webp",
+    "informacion": "Se llevó a cabo la supervisión de obra y control de materiales para la construcción de una torre de 30 niveles en Guadalajara.",
+    "id": 2
+  },
+  "trabajo-3": {
+    "Nombre": "Hospital Ángeles del Sur",
+    "Ruta_Imagen": "build/img/proyectos/hospital-angeles.webp",
+    "informacion": "Participamos en la instalación de sistemas eléctricos y climatización, garantizando el cumplimiento de las normas sanitarias.Participamos en la instalación de sistemas eléctricos y climatización, garantizando el cumplimiento de las normas sanitariasParticipamos en la instalación de sistemas eléctricos y climatización, garantizando el cumplimiento de las normas sanitariasParticipamos en la instalación de sistemas eléctricos y climatización, garantizando el cumplimiento de las normas sanitariasParticipamos en la instalación de sistemas eléctricos y climatización, garantizando el cumplimiento de las normas sanitariasParticipamos en la instalación de sistemas eléctricos y climatización, garantizando el cumplimiento de las normas sanitariasParticipamos en la instalación de sistemas eléctricos y climatización, garantizando el cumplimiento de las normas sanitariasParticipamos en la instalación de sistemas eléctricos y climatización, garantizando el cumplimiento de las normas sanitariasParticipamos en la instalación de sistemas eléctricos y climatización, garantizando el cumplimiento de las normas sanitariasParticipamos en la instalación de sistemas eléctricos y climatización, garantizando el cumplimiento de las normas sanitariasParticipamos en la instalación de sistemas eléctricos y climatización, garantizando el cumplimiento de las normas sanitariasParticipamos en la instalación de sistemas eléctricos y climatización, garantizando el cumplimiento de las normas sanitarias",
+    "id": 3
+  },
+  "trabajo-4": {
+    "Nombre": "Aeropuerto Regional del Bajío",
+    "Ruta_Imagen": "build/img/proyectos/aeropuerto-bajio.jpeg",
+    "informacion": "Nos encargamos de la gestión de obra civil y la coordinación con contratistas para la ampliación de la terminal aérea.",
+    "id": 4
+  },
+  "trabajo-5": {
+    "Nombre": "Parque Industrial Sigma",
+    "Ruta_Imagen": "build/img/proyectos/parque-sigma.webp",
+    "informacion": "Desarrollo completo de naves industriales con enfoque en eficiencia energética y diseño sustentable.",
+    "id": 5
+  },
+  "trabajo-6": {
+    "Nombre": "Residencial Monteverde",
+    "Ruta_Imagen": "build/img/proyectos/residencial-monteverde.webp",
+    "informacion": "Diseñamos y ejecutamos la infraestructura eléctrica e hidráulica para un complejo de 150 viviendas de lujo.",
+    "id": 6
+  },
+  "trabajo-7": {
+    "Nombre": "Centro Logístico del Pacífico",
+    "Ruta_Imagen": "build/img/proyectos/centro-logistico.webp",
+    "informacion": "Proyecto orientado al transporte y distribución. Nos encargamos del diseño estructural y la instalación de sistemas de seguridad.",
+    "id": 7
+  },
+  "trabajo-8": {
+    "Nombre": "Museo de Arte Contemporáneo del Valle",
+    "Ruta_Imagen": "build/img/proyectos/museo-valle.webp",
+    "informacion": "Colaboramos en la restauración y ampliación del museo, manteniendo la integridad arquitectónica del edificio histórico.",
+    "id": 8
+  },
+  "trabajo-9": {
+    "Nombre": "Puente Metropolitano",
+    "Ruta_Imagen": "build/img/proyectos/puente-metropolitano.webp",
+    "informacion": "Responsables del control de calidad en materiales y pruebas de carga estructural durante la construcción del puente principal.",
+    "id": 9
+  },
+  "trabajo-10": {
+    "Nombre": "Plaza Verde Ecocenter",
+    "Ruta_Imagen": "build/img/proyectos/plaza-verde.webp",
+    "informacion": "Diseño e implementación de soluciones sustentables para un centro comercial con paneles solares y sistemas de captación pluvial.",
+    "id": 10
+  }
+}
