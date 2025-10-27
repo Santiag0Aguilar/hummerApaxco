@@ -34,12 +34,25 @@
 
       <!-- Contenido existente -->
       <div class="header-top" data-aos="fade-down" data-aos-delay="200">
-        <img
-          class="logo__hummer"
-          src="build/img/LogoHummer.png"
-          alt="Logo de hummer"
-        />
-        <nav data-aos="fade-left" data-aos-delay="400">
+        <div class="header-top__image">
+          <img
+            class="logo__hummer"
+            src="build/img/LogoHummer.png"
+            alt="Logo de hummer"
+          />
+
+          <img
+            src="build/img/hamburger-menu-svgrepo-com.svg"
+            alt="hamburger-menu-svgrepo-com"
+            class="hamburger__menu"
+          />
+        </div>
+        <nav
+          class="header__navegacion"
+          data-aos="fade-left"
+          data-aos-delay="400"
+        >
+          <!-- aqui el svg de hamburgesa -->
           <a href="nosotros.html" class="nav__enlace">Nosotros</a>
           <a href="servicios.html" class="nav__enlace">Servicios</a>
           <a href="trabajos.html" class="nav__enlace">Trabajos</a>
@@ -55,7 +68,7 @@
       </div>
     </header>
 
-    <main class="nosotros contenedor">
+    <main class="nosotros contenedor ActivarHeader">
       <div class="nosotros__texto">
         <h2 data-aos="fade-down" data-aos-delay="200" class="centrar__texto">
           Acerca de nosotros
@@ -85,7 +98,11 @@
           >
             <img src="build/img/icon_home.svg" alt="icon_home" />
             <div class="nosotros__servicios--item__texto">
-              <p>+<span class="nosotros__servicios--contador">20</span></p>
+              <p>
+                +<span class="nosotros__servicios--contador" data-tope="20"
+                  >0</span
+                >
+              </p>
               <h4>Sector hotelero</h4>
             </div>
           </div>
@@ -100,7 +117,11 @@
               alt="icon_home"
             />
             <div class="nosotros__servicios--item__texto">
-              <p>+<span class="nosotros__servicios--contador">50</span></p>
+              <p>
+                +<span class="nosotros__servicios--contador" data-tope="50"
+                  >0</span
+                >
+              </p>
               <h4>Sector comercial</h4>
             </div>
           </div>
@@ -112,7 +133,11 @@
           >
             <img src="build/img/bulto__img.png" alt="icon_home" />
             <div class="nosotros__servicios--item__texto">
-              <p>+<span class="nosotros__servicios--contador">20</span></p>
+              <p>
+                +<span class="nosotros__servicios--contador" data-tope="20"
+                  >0</span
+                >
+              </p>
               <h4>Sector industrial</h4>
             </div>
           </div>
@@ -124,7 +149,11 @@
           >
             <img src="build/img/government-svgrepo-com.svg" alt="icon_home" />
             <div class="nosotros__servicios--item__texto">
-              <p>+<span class="nosotros__servicios--contador">20</span></p>
+              <p>
+                +<span class="nosotros__servicios--contador" data-tope="20"
+                  >0</span
+                >
+              </p>
               <h4>Sector hotelero</h4>
             </div>
           </div>
@@ -179,7 +208,11 @@
     </section>
 
     <footer class="footer">
-      <img class="logo" src="build/img/LogoHummer.png" alt="LogoHummer" />
+      <img
+        class="logo__hummer"
+        src="build/img/LogoHummer.png"
+        alt="LogoHummer"
+      />
 
       <div class="footer__Texto" data-aos="fade-up" data-aos-delay="200">
         <div class="footer__Texto--top">

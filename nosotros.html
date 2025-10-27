@@ -9,25 +9,43 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="header header-top">
-        <a href="index.html">
-            <img class="logo__hummer" src="build/img/LogoHummer.png" alt="Logo de hummer">
-        </a>
-        
-        <nav data-aos="fade-left" data-aos-delay="400">
-            <a href="nosotros.html" class="nav__enlace enlace__active">Nosotros</a>
-            <a href="servicios.html" class="nav__enlace">Servicios</a>
-            <a href="trabajos.html" class="nav__enlace">Trabajos</a>
-            <a href="mapa.html" class="nav__enlace">Ubicaciones</a>
-            <div class="header__BtnLenguague">
-              <p class="header__BtnLenguague--Active optionLenguaje">es</p>
-              <p class="optionLenguaje">en</p>
-            </div>
+    <header class="header-dos Bg_Dark">
+       <div class="header-top__image">
+            <a href="index.html">
+
+                <img
+                  class="logo__hummer"
+                  src="build/img/LogoHummer.png"
+                  alt="Logo de hummer"
+                />
+            </a>
+
+          <img
+            src="build/img/hamburger-menu-svgrepo-com.svg"
+            alt="hamburger-menu-svgrepo-com"
+            class="hamburger__menu"
+          />
+            
+        </div>
+        <nav
+          class="header__navegacion"
+          data-aos="fade-left"
+          data-aos-delay="400"
+        >
+          <!-- aqui el svg de hamburgesa -->
+          <a href="nosotros.html" class="nav__enlace enlace__active">Nosotros</a>
+          <a href="servicios.html" class="nav__enlace">Servicios</a>
+          <a href="trabajos.html" class="nav__enlace">Trabajos</a>
+          <a href="mapa.html" class="nav__enlace">Ubicaciones</a>
+          <div class="header__BtnLenguague">
+            <p class="header__BtnLenguague--Active optionLenguaje">es</p>
+            <p class="optionLenguaje">en</p>
+          </div>
         </nav>
     </header>
 
       <!-- Hero Nosotros -->
-    <section class="hero-nosotros" data-aos="fade-up">
+    <section class="hero-nosotros " data-aos="fade-up">
         <div class="hero-text">
             <h1>Hummer: Excelencia en Soldadura y Construcción</h1>
             <p>Somos líderes en proyectos de construcción industrial, comercial, hotelera y gubernamental. Nuestro trabajo garantiza precisión, durabilidad y diseño de alta calidad.</p>
@@ -37,8 +55,9 @@
         </div>
     </section>
 
+
     <!-- Sección de Industrias -->
-    <section class="industrias-nosotros" data-aos="fade-up">
+    <section class="industrias-nosotros ActivarHeader" data-aos="fade-up">
         <h2>Industrias en las que trabajamos</h2>
         <div class="industrias-grid">
             <div class="industria-card" data-aos="fade-down" data-aos-delay="100">
@@ -49,16 +68,20 @@
                 <h3>Comercial</h3>
                 <p>Construcción de tiendas y centros comerciales funcionales y duraderos.</p>
             </div>
+
             <div class="industria-card" data-aos="fade-down" data-aos-delay="300">
                 <h3>Calera</h3>
                 <p>Proyectos industriales resistentes y seguros en plantas y caleras.</p>
             </div>
+          
             <div class="industria-card" data-aos="fade-down" data-aos-delay="400">
                 <h3>Gubernamental</h3>
                 <p>Infraestructura gubernamental cumpliendo con normas estrictas.</p>
             </div>
         </div>
     </section>
+
+    
 
     <!-- Sección por qué somos la mejor opción -->
     <section class="mejor-opcion" data-aos="fade-up">

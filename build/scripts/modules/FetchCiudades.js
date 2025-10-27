@@ -9,6 +9,3 @@ async function FetchCiudades() {
 }
 
 export default FetchCiudades;
-
-
-

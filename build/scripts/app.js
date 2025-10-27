@@ -1,5 +1,6 @@
+import ActiveHeader from "./modules/ActiveHeader.js";
 import initBtnIdioma from "./modules/BtnIdioma.js";
-import initContadorIcons from "./modules/ContadorIcons.js";
+import BurgerMenu from "./modules/BurgerMenu.js";
 import FetchCiudades from "./modules/FetchCiudades.js";
 import FetchTrabajos from "./modules/FetchTrabajos.js";
 import MapaDOM from "./modules/MapaDOM.js";
@@ -8,10 +9,11 @@ import trabajosDOMPage from "./modules/TrabajosDOMPage.js";
 
 document.addEventListener("DOMContentLoaded", async function () {
   initBtnIdioma();
-  initContadorIcons();
   FetchTrabajos();
   trabajosDOM();
   trabajosDOMPage();
   FetchCiudades();
   MapaDOM();
+  BurgerMenu();
+  ActiveHeader();
 });
