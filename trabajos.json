@@ -1,7 +1,7 @@
 {
   "trabajo-1": {
     "Nombre": "Midtown Jalisco",
-    "Ruta_Imagen": "build/img/proyectos/midtwon.jpg",
+    "Ruta_Imagen": "build/img/proyectos/midtown.jpg",
     "informacion": "En este proyecto fuimos los responsables de garantizar la calidad en la estructura y acabados del complejo comercial.",
     "id": 1
   },
@@ -36,3 +36,4 @@
     "id": 6
   }
 }
+
