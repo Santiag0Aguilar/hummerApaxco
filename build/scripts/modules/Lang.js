@@ -6,7 +6,7 @@ export const translationsIndex = {
       nosotros: "Nosotros",
       servicios: "Servicios",
       trabajos: "Trabajos",
-      ubicaciones: "Ubicaciones",
+      ubicaciones: "Alcance",
     },
     header: {
       slogan: "Excelencia estructural para proyectos de gran escala",
@@ -35,9 +35,9 @@ export const translationsIndex = {
       titulo: "Servicios",
       btn: "Cotiza ahora",
       items: [
-        "Estructuras de acero",
-        "Soldadura especializada",
-        "Acero inoxidable",
+        "Montaje de Estructuras",
+        "Soldadura Esoespecializada",
+        "Gestión de Proyectos",
       ],
     },
     proyectos: {
@@ -55,7 +55,7 @@ export const translationsIndex = {
       nosotros: "About us",
       servicios: "Services",
       trabajos: "Projects",
-      ubicaciones: "Locations",
+      ubicaciones: "Reach",
     },
     header: {
       slogan: "Structural excellence for large-scale projects",
@@ -81,7 +81,11 @@ export const translationsIndex = {
     servicios: {
       titulo: "Services",
       btn: "Quote now",
-      items: ["Steel Structures", "Specialized Welding", "Stainless Steel"],
+      items: [
+        "Structure Assembly",
+        "Esoespecialized Welding",
+        "Project Management",
+      ],
     },
     proyectos: {
       titulo: "Our Experience",

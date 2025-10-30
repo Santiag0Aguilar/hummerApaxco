@@ -9,14 +9,26 @@ async function MapaDOM() {
   const MXMEX = document.querySelector("#MXMEX");
   const MXROO = document.querySelector("#MXROO");
   const MXQUE = document.querySelector("#MXQUE");
-  const Estados = [MXHID, MXJAL, MXMEX, MXNLE, MXROO, MXQUE];
-  if (!MXHID && !MXJAL && !MXMEX && !MXNLE && !MXQUE && !MXROO) return;
+  const MXBCN = document.querySelector("#MXBCN");
+  const MXCMX = document.querySelector("#MXCMX");
+  const Estados = [MXHID, MXJAL, MXMEX, MXNLE, MXROO, MXQUE, MXBCN, MXCMX];
+  if (
+    !MXHID &&
+    !MXJAL &&
+    !MXMEX &&
+    !MXNLE &&
+    !MXQUE &&
+    !MXROO &&
+    !MXBCN &&
+    !MXCMX
+  )
+    return;
   Estados.forEach((e) => {
     e.addEventListener("click", function () {
       Object.entries(ciudades).forEach(([_, Ciudad]) => {
         if (Ciudad.id == e.id) {
           const { id, nombre, proyecto1, proyecto2, proyecto3 } = Ciudad;
-
+          console.log(nombre);
           const overlayBody = document.createElement("div");
           overlayBody.classList.add("overlayBody");
           overlayBody.setAttribute("data-aos", "fade-up");

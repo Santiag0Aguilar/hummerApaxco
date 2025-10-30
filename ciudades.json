@@ -40,5 +40,19 @@
     "proyecto1": "Zona Hotelera",
     "proyecto2": "Puerto Cancún",
     "proyecto3": "Centro Comercial La Isla"
+  },
+  "MXBCN": {
+    "id": "MXBCN",
+    "nombre": "baja California",
+    "proyecto1": "Zona Hotelera",
+    "proyecto2": "Puerto baja California",
+    "proyecto3": "Centro Comercial La Isla"
+  },
+  "MXCMX": {
+    "id": "MXCMX",
+    "nombre": "estado de mexico",
+    "proyecto1": "1",
+    "proyecto2": "2",
+    "proyecto3": "3"
   }
 }

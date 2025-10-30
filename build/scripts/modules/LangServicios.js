@@ -5,19 +5,19 @@ export const translationsServicios = {
     tituloSeccion: "Nuestros Servicios",
     servicios: [
       {
-        nombre: "Estructuras de Acero",
+        nombre: "Montaje de Estructuras",
         descripcion:
-          "Diseño y construcción de estructuras metálicas con los más altos estándares de calidad.",
+          "Diseño, fabricación y montaje de estructuras metálicas con los más altos estándares de calidad.",
       },
       {
-        nombre: "Soldadura Especializada",
+        nombre: "Soldadura Esoespecializada",
         descripcion:
           "Trabajos de soldadura de precisión para todo tipo de proyectos industriales y comerciales.",
       },
       {
-        nombre: "Acero Inoxidable",
+        nombre: "Gestión de Proyectos",
         descripcion:
-          "Fabricación y montaje en acero inoxidable para garantizar durabilidad y estética premium.",
+          "Planificación y ejecución integral de proyectos para asegurar resultados eficientes y profesionales.",
       },
     ],
     cotizacion: {
@@ -29,9 +29,9 @@ export const translationsServicios = {
         mensaje: "Mensaje / Detalles",
       },
       opcionesServicio: [
-        { value: "estructuras", texto: "Estructuras de Acero" },
-        { value: "soldadura", texto: "Soldadura Especializada" },
-        { value: "inoxidable", texto: "Acero Inoxidable" },
+        { value: "estructuras", texto: "Montaje de Estructuras" },
+        { value: "soldadura", texto: "Soldadura Esoespecializada" },
+        { value: "proyectos", texto: "Gestión de Proyectos" },
       ],
       placeholderNombre: "Tu nombre",
       placeholderEmail: "ejemplo@correo.com",
@@ -43,19 +43,19 @@ export const translationsServicios = {
     tituloSeccion: "Our Services",
     servicios: [
       {
-        nombre: "Steel Structures",
-        descripcion:
-          "Design and construction of metal structures with the highest quality standards.",
+        name: "Structure Assembly",
+        description:
+          "Design, manufacturing, and assembly of metal structures with the highest quality standards.",
       },
       {
-        nombre: "Specialized Welding",
-        descripcion:
+        name: "Esoespecialized Welding",
+        description:
           "Precision welding work for all types of industrial and commercial projects.",
       },
       {
-        nombre: "Stainless Steel",
-        descripcion:
-          "Fabrication and assembly in stainless steel to ensure durability and premium aesthetics.",
+        name: "Project Management",
+        description:
+          "Comprehensive project planning and execution to ensure efficient and professional results.",
       },
     ],
     cotizacion: {
@@ -67,9 +67,9 @@ export const translationsServicios = {
         mensaje: "Message / Details",
       },
       opcionesServicio: [
-        { value: "estructuras", texto: "Steel Structures" },
-        { value: "soldadura", texto: "Specialized Welding" },
-        { value: "inoxidable", texto: "Stainless Steel" },
+        { value: "estructuras", text: "Structure Assembly" },
+        { value: "soldadura", text: "Esoespecialized Welding" },
+        { value: "proyectos", text: "Project Management" },
       ],
       placeholderNombre: "Your name",
       placeholderEmail: "example@email.com",

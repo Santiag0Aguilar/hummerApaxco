@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hummer--Mapa</title>
+    <title>Hummer--Alcance</title>
+    <link rel="icon" href="build/img/LogoHummer.png" type="image/png" />
     <link rel="preload" href="build/css/index.css" type="stylesheet" />
     <link rel="stylesheet" href="build/css/index.css" />
     <link
@@ -13,19 +14,27 @@
   </head>
   <body>
     <header class="header header-top">
-      <a data-aos="fade-up" data-aos-delay="400" href="index.html">
-        <img
-          class="logo__hummer"
-          src="build/img/LogoHummer.png"
-          alt="Logo de hummer"
-        />
-      </a>
+      <div class="header-top__image">
+        <a href="index.html">
+          <img
+            class="logo__hummer"
+            src="build/img/LogoHummer.png"
+            alt="Logo de hummer"
+          />
+        </a>
 
-      <nav data-aos="fade-left" data-aos-delay="400">
+        <img
+          src="build/img/hamburger-menu-svgrepo-com.svg"
+          alt="hamburger-menu-svgrepo-com"
+          class="hamburger__menu"
+        />
+      </div>
+      <nav class="header__navegacion" data-aos="fade-left" data-aos-delay="400">
+        <!-- aqui el svg de hamburgesa -->
         <a href="nosotros.html" class="nav__enlace">Nosotros</a>
         <a href="servicios.html" class="nav__enlace">Servicios</a>
         <a href="trabajos.html" class="nav__enlace">Trabajos</a>
-        <a href="mapa.html" class="nav__enlace enlace__active">Ubicaciones</a>
+        <a href="mapa.html" class="nav__enlace enlace__active">Alcance</a>
         <div class="header__BtnLenguague">
           <p class="header__BtnLenguague--Active optionLenguaje">es</p>
           <p class="optionLenguaje">en</p>
