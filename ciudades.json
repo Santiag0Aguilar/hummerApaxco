@@ -43,7 +43,14 @@
   },
   "MXBCN": {
     "id": "MXBCN",
-    "nombre": "baja California",
+    "nombre": "Mexicali",
+    "proyecto1": "Zona Hotelera",
+    "proyecto2": "Puerto baja California",
+    "proyecto3": "Centro Comercial La Isla"
+  },
+  "MXBCN2": {
+    "id": "MXBCN",
+    "nombre": "Tijuana",
     "proyecto1": "Zona Hotelera",
     "proyecto2": "Puerto baja California",
     "proyecto3": "Centro Comercial La Isla"
