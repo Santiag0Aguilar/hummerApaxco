@@ -10,7 +10,7 @@ export const translationsServicios = {
           "Diseño, fabricación y montaje de estructuras metálicas con los más altos estándares de calidad.",
       },
       {
-        nombre: "Soldadura Esoespecializada",
+        nombre: "Soldadura Especializada",
         descripcion:
           "Trabajos de soldadura de precisión para todo tipo de proyectos industriales y comerciales.",
       },
@@ -20,6 +20,26 @@ export const translationsServicios = {
           "Planificación y ejecución integral de proyectos para asegurar resultados eficientes y profesionales.",
       },
     ],
+    misionVision: {
+      titulo: "Nuestra Esencia",
+      items: [
+        {
+          nombre: "Visión",
+          descripcion:
+            "Ser la empresa más confiable en la fabricación industrial, reconocidos por la aplicación de altos estándares de calidad, tiempos de entrega oportunos y precios competitivos. Contribuir al desarrollo del país, de nuestros clientes y proveedores, satisfaciendo sus necesidades con productos de alta calidad en el tiempo establecido.",
+        },
+        {
+          nombre: "Misión",
+          descripcion:
+            "Convertirnos en una empresa líder a nivel nacional en el ramo de la construcción metalmecánica, enfocándonos en mejorar continuamente nuestros procesos y métodos de producción.",
+        },
+        {
+          nombre: "Política de Calidad",
+          descripcion:
+            "En Servicios Industriales HUMER S.A. de C.V. trabajamos con apego a las especificaciones y normas aplicables a nuestro giro. Buscamos la satisfacción del cliente mediante la entrega de productos que rebasen sus requisitos y fomentamos la mejora continua en todos los procesos de nuestra organización.",
+        },
+      ],
+    },
     cotizacion: {
       titulo: "Solicita tu Cotización",
       labels: {
@@ -43,21 +63,41 @@ export const translationsServicios = {
     tituloSeccion: "Our Services",
     servicios: [
       {
-        name: "Structure Assembly",
-        description:
+        nombre: "Structure Assembly",
+        descripcion:
           "Design, manufacturing, and assembly of metal structures with the highest quality standards.",
       },
       {
-        name: "Esoespecialized Welding",
-        description:
+        nombre: "Specialized Welding",
+        descripcion:
           "Precision welding work for all types of industrial and commercial projects.",
       },
       {
-        name: "Project Management",
-        description:
+        nombre: "Project Management",
+        descripcion:
           "Comprehensive project planning and execution to ensure efficient and professional results.",
       },
     ],
+    misionVision: {
+      titulo: "Our Essence",
+      items: [
+        {
+          nombre: "Vision",
+          descripcion:
+            "To be the most reliable company in industrial manufacturing, recognized for applying high quality standards, on-time delivery, and competitive prices. We aim to contribute to the development of the country, our clients, and suppliers by meeting their needs with high-quality products delivered on time.",
+        },
+        {
+          nombre: "Mission",
+          descripcion:
+            "To become a national leader in the metal-mechanical construction sector, focusing on the continuous improvement of our production methods and processes.",
+        },
+        {
+          nombre: "Quality Policy",
+          descripcion:
+            "At Servicios Industriales HUMER S.A. de C.V., we work in compliance with the specifications and standards applicable to our industry. We seek customer satisfaction by delivering products that exceed their requirements and promote continuous improvement in all areas of our organization.",
+        },
+      ],
+    },
     cotizacion: {
       titulo: "Request a Quote",
       labels: {
@@ -67,9 +107,9 @@ export const translationsServicios = {
         mensaje: "Message / Details",
       },
       opcionesServicio: [
-        { value: "estructuras", text: "Structure Assembly" },
-        { value: "soldadura", text: "Esoespecialized Welding" },
-        { value: "proyectos", text: "Project Management" },
+        { value: "estructuras", texto: "Structure Assembly" },
+        { value: "soldadura", texto: "Specialized Welding" },
+        { value: "proyectos", texto: "Project Management" },
       ],
       placeholderNombre: "Your name",
       placeholderEmail: "example@email.com",
@@ -95,6 +135,19 @@ export function aplicarTraduccionServicios(idioma) {
     if (t.servicios[i]) {
       if (h3) h3.textContent = t.servicios[i].nombre;
       if (p) p.textContent = t.servicios[i].descripcion;
+    }
+  });
+  // --- MISIÓN, VISIÓN Y POLÍTICA ---
+  const mvH2 = document.querySelector(".mision-vision h2");
+  if (mvH2) mvH2.textContent = t.misionVision.titulo;
+
+  const mvCards = document.querySelectorAll(".mision-vision .mv-card");
+  mvCards.forEach((card, i) => {
+    const h3 = card.querySelector("h3");
+    const p = card.querySelector("p");
+    if (t.misionVision.items[i]) {
+      if (h3) h3.textContent = t.misionVision.items[i].nombre;
+      if (p) p.textContent = t.misionVision.items[i].descripcion;
     }
   });
 

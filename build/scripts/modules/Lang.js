@@ -36,7 +36,7 @@ export const translationsIndex = {
       btn: "Cotiza ahora",
       items: [
         "Montaje de Estructuras",
-        "Soldadura Esoespecializada",
+        "Soldadura Especializada",
         "Gestión de Proyectos",
       ],
     },
@@ -83,7 +83,7 @@ export const translationsIndex = {
       btn: "Quote now",
       items: [
         "Structure Assembly",
-        "Esoespecialized Welding",
+        "Especialized Welding",
         "Project Management",
       ],
     },
@@ -114,8 +114,8 @@ export function aplicarTraduccionIndex(idioma) {
   }
 
   // --- HEADER ---
-  const headerH3 = document.querySelector(".header-bottom h3");
-  if (headerH3) headerH3.textContent = t.header.slogan;
+  const headerH1 = document.querySelector(".header-bottom h1");
+  if (headerH1) headerH1.textContent = t.header.slogan;
 
   // --- NOSOTROS ---
   const nosotrosH2 = document.querySelector(".nosotros__texto h2");
@@ -131,13 +131,13 @@ export function aplicarTraduccionIndex(idioma) {
   });
 
   // --- SERVICIOS ---
-  const serviciosH2 = document.querySelector(".servicios__texto h2");
+  const serviciosH2 = document.querySelector(".servicios__texto h3");
   if (serviciosH2) serviciosH2.textContent = t.servicios.titulo;
 
   const serviciosA = document.querySelector(".servicios__texto a");
   if (serviciosA) serviciosA.textContent = t.servicios.btn;
 
-  const servicioItems = document.querySelectorAll(".servicio__item h2");
+  const servicioItems = document.querySelectorAll(".servicio__item h3");
   servicioItems.forEach((el, i) => {
     if (t.servicios.items[i]) el.textContent = t.servicios.items[i];
   });

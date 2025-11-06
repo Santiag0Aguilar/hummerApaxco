@@ -41,9 +41,8 @@ async function MapaDOM() {
         <div class="overlayBody__content">
             <p data-aos="fade-up" class="overlayBody__nombre">${nombre}</p>
             <div data-aos="fade-up class="overlayBody__informacion"> 
-                <p>${proyecto1}</p>
-                <p>${proyecto2}</p>
-                <p>${proyecto3}</p>
+                <p>Humer: Excelencia en Soldadura y Construcción</p>
+          
             </div>
         </div>
     `;

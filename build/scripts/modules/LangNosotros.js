@@ -3,7 +3,7 @@
 export const translationsNosotros = {
   es: {
     hero: {
-      titulo: "Hummer: Excelencia en Soldadura y Construcción",
+      titulo: "Humer: Excelencia en Soldadura y Construcción",
       texto:
         "Somos líderes en proyectos de construcción industrial, comercial, hotelera y gubernamental. Nuestro trabajo garantiza precisión, durabilidad y diseño de alta calidad.",
     },
@@ -60,7 +60,7 @@ export const translationsNosotros = {
   },
   en: {
     hero: {
-      titulo: "Hummer: Excellence in Welding and Construction",
+      titulo: "Humer: Excellence in Welding and Construction",
       texto:
         "We are leaders in industrial, commercial, hotel, and government construction projects. Our work guarantees precision, durability, and high-quality design.",
     },

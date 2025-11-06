@@ -1,50 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <!-- 🌐 Configuración básica -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Hummer</title>
+    <!-- 🧠 SEO esencial -->
+    <title>Hummer – Excelencia en Soldadura y Construcción</title>
+    <meta
+      name="description"
+      content="Servicios Industriales Hummer S.A. de C.V. — expertos en soldadura, estructuras metálicas y proyectos industriales de alta calidad en México."
+    />
+    <meta
+      name="keywords"
+      content="soldadura, estructuras metálicas, acero, montaje, construcción industrial, proyectos industriales, Hummer México"
+    />
+    <meta name="author" content="Servicios Industriales Hummer S.A. de C.V." />
+    <meta name="robots" content="index, follow" />
 
+    <!-- 📱 Open Graph (para redes sociales) -->
+    <meta
+      property="og:title"
+      content="Hummer – Excelencia en Soldadura y Construcción"
+    />
+    <meta
+      property="og:description"
+      content="Expertos en soldadura, estructuras metálicas y proyectos industriales de alta calidad en México."
+    />
+    <meta
+      property="og:image"
+      content="https://tusitio.com/build/img/LogoHummer.png"
+    />
+    <meta property="og:url" content="https://tusitio.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- 🐦 Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Hummer – Excelencia en Soldadura y Construcción"
+    />
+    <meta
+      name="twitter:description"
+      content="Especialistas en estructuras de acero y soldadura industrial en México."
+    />
+    <meta
+      name="twitter:image"
+      content="https://tusitio.com/build/img/LogoHummer.png"
+    />
+
+    <!-- 🔍 Datos estructurados (Google) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Servicios Industriales Hummer S.A. de C.V.",
+        "url": "https://tusitio.com",
+        "logo": "https://tusitio.com/build/img/LogoHummer.png",
+        "sameAs": [
+          "https://www.facebook.com/hummer",
+          "https://www.instagram.com/hummer"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+52-55-6358-5999",
+          "contactType": "Customer Service",
+          "areaServed": "MX"
+        }
+      }
+    </script>
+
+    <!-- 🧩 Favicon -->
     <link rel="icon" href="build/img/LogoHummer.png" type="image/png" />
-    <!-- Swiper CSS -->
+
+    <!-- 🎨 Estilos -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <!-- En el <head> -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-    <!-- Antes de cerrar el body -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-    <link rel="preload" href="build/css/index.css" type="stylesheet" />
+    <link rel="preload" href="build/css/index.css" as="style" />
     <link rel="stylesheet" href="build/css/index.css" />
+
+    <!-- ⚡ Performance -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="preconnect" href="https://unpkg.com" />
   </head>
+
   <body>
     <header class="headerIndice">
-      <!-- Video de fondo -->
       <video autoplay muted loop playsinline class="header__video">
         <source src="build/video/MVI_7348.mp4" type="video/mp4" />
         <source src="build/video/MVI_7348.webm" type="video/webm" />
         <source src="build/video/MVI_7348.ogg" type="video/ogg" />
       </video>
 
-      <!-- Overlay de gradiente (opcional, para mejorar contraste) -->
       <div class="header__overlay"></div>
 
-      <!-- Contenido existente -->
       <div class="header-top" data-aos="fade-down" data-aos-delay="200">
         <div class="header-top__image">
           <img
             class="logo__hummer"
             src="build/img/LogoHummer.png"
-            alt="Logo de hummer"
+            alt="Logo de Hummer"
           />
 
           <img
             src="build/img/hamburger-menu-svgrepo-com.svg"
-            alt="hamburger-menu-svgrepo-com"
+            alt="Menú hamburguesa"
             class="hamburger__menu"
           />
         </div>
@@ -53,7 +116,6 @@
           data-aos="fade-left"
           data-aos-delay="400"
         >
-          <!-- aqui el svg de hamburgesa -->
           <a href="nosotros.html" class="nav__enlace">Nosotros</a>
           <a href="servicios.html" class="nav__enlace">Servicios</a>
           <a href="trabajos.html" class="nav__enlace">Trabajos</a>
@@ -64,40 +126,35 @@
           </div>
         </nav>
       </div>
+
       <div class="header-bottom" data-aos="zoom-in" data-aos-delay="600">
-        <h3>Excelencia estructural para proyectos de gran escala</h3>
+        <h1>Excelencia estructural para proyectos de gran escala</h1>
       </div>
     </header>
 
     <main class="nosotros contenedor ActivarHeader">
-      <div class="nosotros__texto">
+      <section class="nosotros__texto">
         <h2 data-aos="fade-down" data-aos-delay="200" class="centrar__texto">
           Acerca de nosotros
         </h2>
         <p data-aos="fade-down" data-aos-delay="200">
-          HUMER es una empresa mexicana, fundada en el año 2013 en el Estado de
-          México, bajo el régimen de persona física con el registro
-          CURJ920121BE6. Debido a la constante evolución de la industria en
-          nuestro país, la empresa en particular creo una asociación en el año
-          2020, Surgiendo así lo que hoy es SERVICIOS INDUSTRIALES HUMER S.A. de
-          C.V. estructurado con personal especializado en aplicación de
-          soldadura, ingeniería, Fabricación, montaje, supervisión y
-          administración. Nuestra experiencia se ah forjado en la estructura
-          metálica en obras, soldadura especializada, fabricación de piezas
-          metálicas para la industria en general, (Caleras, Concreteras, etc.)
-          así mismo en el ámbito residencial
+          HUMER es una empresa mexicana fundada en 2013 en el Estado de México.
+          En 2020, se constituyó como SERVICIOS INDUSTRIALES HUMER S.A. de C.V.,
+          especializada en soldadura, ingeniería, fabricación y montaje de
+          estructuras metálicas. Nuestra experiencia abarca los sectores
+          industrial, comercial, hotelero y gubernamental.
         </p>
-      </div>
+      </section>
 
-      <!-- Icons de servicios -->
-      <div class="nosotros__servicios swiper-servicios">
+      <!-- 🏗️ Sectores -->
+      <section class="nosotros__servicios swiper-servicios">
         <div class="swiper-wrapper">
           <div
             data-aos="fade-down"
             data-aos-delay="200"
             class="nosotros__servicios--item swiper-slide"
           >
-            <img src="build/img/icon_home.svg" alt="icon_home" />
+            <img src="build/img/icon_home.svg" alt="Sector hotelero" />
             <div class="nosotros__servicios--item__texto">
               <p>
                 +<span class="nosotros__servicios--contador" data-tope="2"
@@ -115,7 +172,7 @@
           >
             <img
               src="build/img/shopping-cart-svgrepo-com.svg"
-              alt="icon_home"
+              alt="Sector comercial"
             />
             <div class="nosotros__servicios--item__texto">
               <p>
@@ -132,7 +189,7 @@
             data-aos-delay="400"
             class="nosotros__servicios--item swiper-slide"
           >
-            <img src="build/img/bulto__img.png" alt="icon_home" />
+            <img src="build/img/bulto__img.png" alt="Sector industrial" />
             <div class="nosotros__servicios--item__texto">
               <p>
                 +<span class="nosotros__servicios--contador" data-tope="23"
@@ -148,7 +205,10 @@
             data-aos-delay="500"
             class="nosotros__servicios--item swiper-slide"
           >
-            <img src="build/img/government-svgrepo-com.svg" alt="icon_home" />
+            <img
+              src="build/img/government-svgrepo-com.svg"
+              alt="Sector gubernamental"
+            />
             <div class="nosotros__servicios--item__texto">
               <p>
                 +<span class="nosotros__servicios--contador" data-tope="2"
@@ -159,9 +219,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
-    <!-- SERVICIOS -->
+
+    <!-- 🧰 Sección servicios -->
     <section class="servicios">
       <div
         class="servicios__texto contenedor"
@@ -172,38 +233,43 @@
         <a class="Btn-1" href="servicios.html">Cotiza ahora</a>
       </div>
     </section>
+
     <section class="servicio contenedor">
       <div class="servicio__item" data-aos="fade-up" data-aos-delay="100">
-        <h2>montaje de estructura</h2>
-        <img src="build/img/1.jpg" alt="imagen de servicio" />
+        <h3>Montaje de estructura</h3>
+        <img
+          src="build/img/1.jpg"
+          alt="Montaje de estructura metálica"
+          loading="lazy"
+        />
       </div>
       <div class="servicio__item" data-aos="fade-up" data-aos-delay="300">
-        <h2>soldadura esoecializada</h2>
-        <img src="build/img/3.jpg" alt="imagen de servicio" />
+        <h3>Soldadura especializada</h3>
+        <img src="build/img/3.jpg" alt="Soldadura industrial" loading="lazy" />
       </div>
       <div class="servicio__item" data-aos="fade-up" data-aos-delay="500">
-        <h2>gestion de proyectos</h2>
-        <img src="build/img/2.jpg" alt="imagen de servicio" />
+        <h3>Gestión de proyectos</h3>
+        <img
+          src="build/img/2.jpg"
+          alt="Gestión de proyectos industriales"
+          loading="lazy"
+        />
       </div>
     </section>
 
+    <!-- 🏗️ Experiencia -->
     <section class="proyectos">
       <div class="proyectos__top contenedor" data-aos="fade-up">
         <h2>Nuestra experiencia</h2>
         <a class="Btn-1" href="servicios.html">Cotizar ahora</a>
       </div>
 
-      <!-- Carrusel Swiper -->
       <div
         class="proyectos__bottom contenedor swiper"
         data-aos="zoom-in-up"
         data-aos-delay="200"
       >
-        <div class="swiper-wrapper proyectos__bottom__Contenedor">
-          <!-- Puedes agregar más slides -->
-        </div>
-
-        <!-- Controles del carrusel -->
+        <div class="swiper-wrapper proyectos__bottom__Contenedor"></div>
         <div class="swiper-pagination"></div>
       </div>
     </section>
@@ -212,73 +278,75 @@
       <img
         class="logo__hummer"
         src="build/img/LogoHummer.png"
-        alt="LogoHummer"
+        alt="Logo Hummer"
       />
 
       <div class="footer__Texto" data-aos="fade-up" data-aos-delay="200">
         <div class="footer__Texto--top">
-          <p>sihumer08@gmail.com</p>
+          <p><a href="mailto:sihumer08@gmail.com">sihumer08@gmail.com</a></p>
         </div>
         <div class="footer__Texto--bottom">
           <div>
-            <p class="nombre">Jorge alberto cruz resendiz</p>
-            <p><span>Telefono:</span> (55)63585999</p>
-            <p><span>Correo:</span> jorgeer0121@gmail.com</p>
+            <p class="nombre">Jorge Alberto Cruz Reséndiz</p>
+            <p>
+              <span>Teléfono:</span>
+              <a href="tel:+525563585999">(55) 6358 5999</a>
+            </p>
+            <p>
+              <span>Correo:</span>
+              <a href="mailto:jorgeer0121@gmail.com">jorgeer0121@gmail.com</a>
+            </p>
           </div>
           <div>
-            <p class="nombre">Axel daniel Cruz Resendiz</p>
-            <p><span>Telefono:</span> (55)71919116</p>
-            <p><span>Correo:</span> sirbadgerer@hotmail.com</p>
+            <p class="nombre">Axel Daniel Cruz Reséndiz</p>
+            <p>
+              <span>Teléfono:</span>
+              <a href="tel:+525571919116">(55) 7191 9116</a>
+            </p>
+            <p>
+              <span>Correo:</span>
+              <a href="mailto:sirbadgerer@hotmail.com"
+                >sirbadgerer@hotmail.com</a
+              >
+            </p>
           </div>
         </div>
       </div>
     </footer>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- 📦 Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+      defer
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+
     <script>
-      const swiper = new Swiper(".swiper", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          768: { slidesPerView: 2 }, // Tablets
-          1024: { slidesPerView: 3 }, // Desktop
-        },
-      });
-    </script>
-    <script>
-      const swiperServicios = new Swiper(".swiper-servicios", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        loop: true,
-        pagination: {
-          el: ".servicios-pagination",
-          clickable: true,
-        },
-        breakpoints: {
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-          1280: { slidesPerView: 4 },
-        },
+      document.addEventListener("DOMContentLoaded", () => {
+        AOS.init({ duration: 1000, once: true });
+        new Swiper(".swiper", {
+          slidesPerView: 1,
+          spaceBetween: 20,
+          loop: true,
+          pagination: { el: ".swiper-pagination", clickable: true },
+          breakpoints: {
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          },
+        });
+        new Swiper(".swiper-servicios", {
+          slidesPerView: 1,
+          spaceBetween: 20,
+          loop: true,
+          breakpoints: {
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+            1280: { slidesPerView: 4 },
+          },
+        });
       });
     </script>
 
-    <script>
-      AOS.init({
-        duration: 1000, // duración de la animación en ms
-        once: true, // si quieres que se ejecute solo una vez
-      });
-    </script>
-
-    <script type="module" src="build/scripts/app.js"></script>
+    <script type="module" src="build/scripts/app.js" defer></script>
   </body>
 </html>
